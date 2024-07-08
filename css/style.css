@@ -1,0 +1,82 @@
+* {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.header, .content, .datos_p, .titulo, .opciones, .lista, .item1, .item2, .item3, .item4, .ancla1, .ancla2, .ancla3, .ancla4, .info, .foto, .estudios_a, .unidad_educativa, .basica, .bachillerato, .universidad, .estudios_v, .CEN, .exp, .banco_bolivariano, p, h3{
+    background-color: rgb(85, 170, 219);
+    
+}
+
+.header, .content, .datos_p, .estudios_a, .estudios_v, .exp{
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.titulo {
+    text-align: center;
+    margin: 4%;
+}
+
+.lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.item1, .item2, .item3, .item4, .lista{
+    padding: 10px;
+}
+
+.ancla1, .ancla2, .ancla3, .ancla4 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.info {
+    text-align: justify;
+}
+
+.foto {
+    justify-content: space-around;
+    text-align: center;
+}
+
+.unidad_educativa {
+    list-style: none;
+}
+
+.lista li {
+    padding: 10px;
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+.lista li:hover {
+    background-color: rgb(85, 170, 219);
+    color: white;          /* Color de texto blanco */
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+}
+
+.lista li:hover a { /* Estilos específicos para el enlace dentro del li */
+    color: white;        /* Asegurar que el color del enlace también cambie */
+}
+
+div {
+    border-left: 5px solid rgb(38, 113, 156);
+    border-top: 5px solid rgb(38, 113, 156);
+
+}
+
+.foto {
+    border-left: none;
+    border-top: none;
+}
